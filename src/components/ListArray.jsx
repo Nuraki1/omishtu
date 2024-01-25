@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./database";
 import { database } from "./database";
 import { Profile } from "./Profile";
@@ -12,7 +12,7 @@ function ListArray() {
           {database.map((user, i) => {
             return (
               <Profile
-                 key={i}
+                key={database[i].id}
                 id={database[i].id}
                 name={database[i].name}
                 title={database[i].title}
