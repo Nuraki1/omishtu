@@ -1,18 +1,16 @@
-
 import "./database";
-import { database } from "./database";
+// import { database } from "./database";
 import { Profile } from "./Profile";
 
-function ListArray() {
+function ListArray({ database }) {
   return (
     <div>
-      <h1>List of Robots</h1>
       <div className="container">
         <div className="row ">
           {database.map((user, i) => {
             return (
               <Profile
-                key={database[i].id}
+                key={i}
                 id={database[i].id}
                 name={database[i].name}
                 title={database[i].title}
