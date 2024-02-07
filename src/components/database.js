@@ -1,10 +1,10 @@
-export const database = [
-    {
+export const database = [ {
         id: 1,
         name: "OmishtuJOy",
         title: "omishtu joy company is one of tech companies of ethiopia"
           },
     {
+   
         id:2,
         name: "Melkam Technology",
         title: "Melkam technology company is one of tech companies of ethiopia"

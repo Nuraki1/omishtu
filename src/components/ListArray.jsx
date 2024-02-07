@@ -1,5 +1,4 @@
-import "./database";
-// import { database } from "./database";
+
 import { Profile } from "./Profile";
 
 function ListArray({ database }) {
