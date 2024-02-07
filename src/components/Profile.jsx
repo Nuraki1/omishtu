@@ -4,16 +4,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./profile.css";
 import { useState } from "react";
 
-export const Profile = ({ id, name, title }) => {
+export const Profile = ({ id, name, title, imgUrl }) => {
   // let numbOfLike = 0;
   const [numbOfLike, setNumbOfLike] = useState(0);
   return (
     <>
-      <div id="cardss" className="col-sm-6 col-md-4 col-lg-3 ">
-        <div className="card m-1 p-1 bg-light-emphasis">
+      <div className="col-sm-6 col-md-4 col-lg-3 ">
+        <div  id="cardss" className="card m-1  p-10 bg-light-emphasis">
           <img
-            src={`https://robohash.org/${id}test?`}
-            className="card-img-top card-anchor"
+            // src={`https://robohash.org/${id}test?`}
+            
+            src= {imgUrl}
+            className="card-img-top anchor"
             alt="..."
           />
           <div className="card-body">

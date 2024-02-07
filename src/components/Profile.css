@@ -5,7 +5,11 @@
     padding: 0;
 }
 
+
+
 #cardss {
+ 
+  border-radius: 2px;
   background-color: rgb(231, 235, 107);
 }
 

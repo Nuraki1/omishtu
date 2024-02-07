@@ -13,6 +13,7 @@ function ListArray({ database }) {
                 id={database[i].id}
                 name={database[i].name}
                 title={database[i].title}
+                imgUrl = {database[i].imgUrl}
               />
             );
           })}
