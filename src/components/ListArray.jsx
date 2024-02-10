@@ -2,6 +2,8 @@
 import { Profile } from "./Profile";
 
 function ListArray({ database }) {
+
+  if (true) 
   return (
     <div>
       <div className="container">

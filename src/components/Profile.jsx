@@ -12,9 +12,9 @@ export const Profile = ({ id, name, title, imgUrl }) => {
       <div className="col-sm-6 col-md-4 col-lg-3 ">
         <div  id="cardss" className="card m-1  p-10 bg-light-emphasis">
           <img
-            // src={`https://robohash.org/${id}test?`}
+            src={`https://robohash.org/${id}test?`}
             
-            src= {imgUrl}
+            // src= {imgUrl}
             className="card-img-top anchor"
             alt="..."
           />
