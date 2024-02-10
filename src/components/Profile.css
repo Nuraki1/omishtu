@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 *{
+  /* background-color: rgb(rgb(21, 4, 4), rgb(23, 40, 23), rgb(4, 4, 16)); */
     margin: 0;
     padding: 0;
 }
@@ -10,7 +11,7 @@
 #cardss {
  
   border-radius: 2px;
-  background-color: rgb(231, 235, 107);
+  background-color: rgb(247, 248, 237);
 }
 
 
