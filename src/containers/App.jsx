@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import "./App.css"
+import "../App.css"
 
-import ListArray from "./components/ListArray";
-import SearchBox from "./components/SearchBox";
-import Scroll from "./components/Scroll"
-import { database } from "./components/database";
-import TimerClick from "./components/TimerClick";
-import Scrollable from "./components/Scrollable";
+import ListArray from "../components/ListArray";
+import SearchBox from "../components/SearchBox";
+
+import { database } from "../components/database";
+
+import Scrollable from "../components/Scrollable";
 
 
 
