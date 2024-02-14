@@ -28,7 +28,7 @@
 
           Ways of Sending Data to a server:
           --------------------------------
-             - Query String (GET method)
+             - Query String (GET method) 
              - Form Data / Body of the request (POST method)
              - JSON Payload (POST or PUT method) : Multiple data in Structured way 
                                                    eg. user = {name:"Ak", pw:"123" }
@@ -44,8 +44,8 @@
                 those with JSON instead of as a form data.     
 
 
-           AJAX:
-           -----
+ AJAX
+ -----
 
               Problem: when ever a page is updated, the entire page must be loaded (navig, sidebar ... ) 
 
@@ -56,4 +56,8 @@
 
 
              syntax: fetch('url').then(response => response.json()).then(data)   
+
+            
+ Promises
+ --------
                     

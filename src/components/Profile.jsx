@@ -4,9 +4,25 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Profile.css";
 import { useState, useEffect } from "react";
 
-export const Profile = ({ id, name,title, imgUrl }) => {
+export const Profile = ({ id,title, imgUrl }) => {
   // let numbOfLike = 0;
   const [numbOfLike, setNumbOfLike] = useState(0);
+
+   const [name, setName] = useState("");
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((response) => response.json())
+      .then((users) => {
+        // Assuming the response is an array of users
+        if (users && users.length > 0) {
+          const user = users.find((user) => user.id === id);
+          if (user) {
+            setName(user.name); // Assuming you have a state variable 'name' to store the fetched user's name
+          }
+        }
+      });
+  }, [id]);
 
   return (
     <>
@@ -42,17 +58,3 @@ export const Profile = ({ id, name,title, imgUrl }) => {
 
 
 
- // const [name, setName] = useState("");
-  // useEffect(() => {
-  //   fetch("https://jsonplaceholder.typicode.com/users")
-  //     .then((response) => response.json())
-  //     .then((users) => {
-  //       // Assuming the response is an array of users
-  //       if (users && users.length > 0) {
-  //         const user = users.find((user) => user.id === id);
-  //         if (user) {
-  //           setName(user.name); // Assuming you have a state variable 'name' to store the fetched user's name
-  //         }
-  //       }
-  //     });
-  // }, [id]);
