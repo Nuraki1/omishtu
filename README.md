@@ -1,9 +1,9 @@
 
-               Advanced Javascript II - for Backend version
+ ``` Advanced Javascript II - for Backend version```
    
    
-   HTTP and HTTPS
-   --------------
+   ```HTTP and HTTPS```
+   -------------------
      - HTTP:  Hyper Text Transfer Protocol
               is a common language to communicate between client and servers
               includes (GET, POST, PUT, DELETE) methods
@@ -47,8 +47,8 @@
                 those with JSON instead of as a form data.     
 
 
- AJAX
- -----
+ ```AJAX```
+ ----------
 
               Problem: when ever a page is updated, the entire page must be loaded (navig, sidebar ... ) 
 
@@ -61,8 +61,8 @@
              syntax: fetch('url').then(response => response.json()).then(data)   
 
             
- Promises
- --------
+ ```Promises```
+ -------------
             - An object that may produce a single value some time in the future
             - Either a resolved value, or rejected
                states: 
@@ -96,7 +96,7 @@
                .then(result => result)
 
 
-  Synchronious VS Asynchronous functions
+  ```Synchronious VS Asynchronous functions```
   --------------------------------------
 
          - Async/ Await              
@@ -106,15 +106,14 @@
 
 
 
-
-                    FullStack Website Development: MERN FullStack
-                          OmishtuJOy : Backend segment
-
+  ```FullStack Website Development: MERN FullStack```
+         ``` OmishtuJOy : Backend segment ```
 
 
-     PREREQUISITE: Advanced javascript (http/https, JSON, AJAX, Asyncronious Function, and others  )
 
-       Road Map:
+   ``` PREREQUISITE: Advanced javascript (http/https, JSON, AJAX, Asyncronious Function, and others  )```
+
+   ``` Road Map:```
 
             - Node js Fundamentals            (Docs and practical)
                    * runtime
