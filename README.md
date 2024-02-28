@@ -1,5 +1,7 @@
 
  ``` Advanced Javascript II - for Backend version```
+ ----------------------------------------------------
+  - prerequisite for the following backend part (strongly recommended)
    
    
    ```HTTP and HTTPS```
