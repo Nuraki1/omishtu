@@ -1,4 +1,7 @@
 
+               Advanced Javascript II - for Backend version
+   
+   
    HTTP and HTTPS
    --------------
      - HTTP:  Hyper Text Transfer Protocol
@@ -60,4 +63,91 @@
             
  Promises
  --------
+            - An object that may produce a single value some time in the future
+            - Either a resolved value, or rejected
+               states: 
+                 - rejected
+                 - resolved
+                 - pending
+ 
+
+        callbacks VS promises 
+
+            callbacks: leads to more nested functions results in callback hell/ pyramid of doom  
+            promises: try to solve this issue      
+
+       eg. 
+       const promise = new Promise((resolve, reject) => {
+
+          if (true){
+               resolve("it's working");
+           } else {
+               reject("it broke");
+           }
+           });
+
+           promise
+               .then(result => console.log(result))
+                  throw error;
+               .then(result => result + "!")
+               .catch(()=>{                               // catch runs while "throw error" is before it
+                  console.log("error")
+               })
+               .then(result => result)
+
+
+  Synchronious VS Asynchronous functions
+  --------------------------------------
+
+         - Async/ Await              
+
+
+
+
+
+
+
+                    FullStack Website Development: MERN FullStack
+                          OmishtuJOy : Backend segment
+
+
+
+     PREREQUISITE: Advanced javascript (http/https, JSON, AJAX, Asyncronious Function, and others  )
+
+       Road Map:
+
+            - Node js Fundamentals            (Docs and practical)
+                   * runtime
+                   * Async function
+                   * node VS php VS python
+                   * internal architecture of node
+                   * module systems
+                   * package management etc..
+            - Web servers                    (practical)        
+                   * API
+                   * Request and Response
+            - Express.js                     (practical)
+                   * professional web server
+                   * MVC pattern
+                   * middlewares     
+                   * building Restfull API
+                   * templating engines  
+
+            - Performance and Scale         (atleast one or 2 in the class session)
+                   * clustering
+                   * load balancing
+                   * pm2
+                   * zero downtime restart
+                   * node worker threats
+
+            - Authentication                   (practical)
+
+            - Database 
+                  * NoSql (mongoDB)             (practical)
+                  * SQL   (mysql, postgress)
+                  * node with DB    
+
+            - Deployment and CI/CD
+            - GraphQL                 ... reading Assignment
+            - Web Sockets             ... Advanced Backend (reading assignment)
                     
