@@ -6,7 +6,7 @@
    --------------
      - HTTP:  Hyper Text Transfer Protocol
               is a common language to communicate between client and servers
-              includes words like (GET, POST, PUT, DELETE)
+              includes (GET, POST, PUT, DELETE) methods
 
 
                         Request    (msg sent by browser)
